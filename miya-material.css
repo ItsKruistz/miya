@@ -1,0 +1,74 @@
+@import url("miya.css");
+:root {
+--primary:#006878;
+--on-primary:#ffffff;
+--primary-container:#a6eeff;
+--on-primary-container:#001f25;
+--secondary:#4b6268;
+--on-secondary:#ffffff;
+--secondary-container:#cde7ee;
+--on-secondary-container:#051f24;
+--tertiary:#555d7e;
+--on-tertiary:#ffffff;
+--tertiary-container:#dce1ff;
+--on-tertiary-container:#111a37;
+--error:#ba1a1a;
+--on-error:#ffffff;
+--error-container:#ffdad6;
+--on-error-container:#410002;
+--background:#fbfcfd;
+--on-background:#191c1d;
+--surface:#f8fafa;
+--on-surface:#191c1d;
+--surface-variant:#dbe4e7;
+--on-surface-variant:#3f484b;
+--outline:#6f797b;
+--outline-variant:#bfc8cb;
+--shadow:#000000;
+--scrim:#000000;
+--inverse-surface:#2e3132;
+--inverse-on-surface:#eff1f2;
+--inverse-primary:#3cd8f5;
+--surface-dim:#d8dadb;
+--surface-bright:#f8fafa;
+--surface-container-lowest:#ffffff;
+--surface-container-low:#f2f4f5;
+--surface-container:#eceeef;
+--surface-container-high:#e6e8e9;
+--surface-container-highest:#e1e3e4;
+}
+
+button {
+	border-radius: 4em;
+	position: relative;
+	padding: 10px 1.4em;
+	min-width: 6em;
+	color: #FFF;
+	background: var(--primary);
+}
+
+.outlined {
+	min-width: 6em;
+	padding: 9px 1.4em;
+	color: #2B6675;
+	background: transparent;
+	border: 1px solid var(--outline);
+}
+
+.elevated-button {
+	min-width: 6em;
+	color: #2B6675;
+	background: transparent;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.text-button {
+	color: #2B6675;
+	background: transparent;
+}
+
+article {
+	border: 1px solid var(--outline);
+	border-radius: 8px;
+	padding: 6px 6px;
+}

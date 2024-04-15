@@ -8,8 +8,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 button {
-	appearance: none;
+	appearance: 0;
+	border: 0;
 	font-size: 0.9em;
+	font-weight: 500;
 	padding: 8px 1em;
 	border-radius: 5px;
+}
+
+img {
+	max-width: 100%;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
