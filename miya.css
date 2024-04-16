@@ -61,7 +61,7 @@ fieldset {
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
+:root {
 --primary:#ffb95c;
 --on-primary:#462a00;
 --primary-container:#653e00;
@@ -134,8 +134,28 @@ button {
 	background: transparent;
 }
 
+.tonal-button {
+	color: var(--on-background);
+	background: var(--surface-variant)
+}
+
 article {
 	border: 1px solid var(--outline);
 	border-radius: 10px;
 	padding: 6px 6px;
+}
+
+legend {
+	font-weight: 500;
+	color: var(--primary);
+	font-size: 14px;
+}
+
+code {
+	background-color: var(--surface-variant);
+	border-radius: 0.3em;
+	font-family: monospace;
+	padding: 0.1em 0.2em;
+	color: var(--on-surface-variant);
+	font-size: 16px;
 }
